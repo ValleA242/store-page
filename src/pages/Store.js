@@ -4,6 +4,7 @@ import { productsArray } from "../productStore.js"
 export default function Store() {
     return (
         <>
+            {/* populate item cards */}
             <h1 align="center" className="p-3">Welcome to the Store!</h1>
             <Row xs={1} md={3} align="center" className="g-4">
                 {productsArray.map((product, idx) => (
@@ -12,6 +13,7 @@ export default function Store() {
                     </Col>
                 ))}
             </Row>
+
         </>
     )
 
