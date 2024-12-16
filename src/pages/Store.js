@@ -1,4 +1,5 @@
 import { Row, Col } from "react-bootstrap"
+import { productsArray } from "../productStore.JS"
 
 export default function Store() {
     return (
