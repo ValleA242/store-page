@@ -24,5 +24,17 @@ const productsArray = [
 
 ]
 
+function getProductData(id) {
+
+    let productData = productsArray.find(product => product.id === id);
+
+    if (productData == undefined) {
+        alert('Product not found');
+        return undefined;
+    }
+
+    return { productData }
+}
+
 
 export { productsArray }
