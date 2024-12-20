@@ -1,7 +1,6 @@
 import { Card, Button, Form, Row, Col } from "react-bootstrap";
 
-export default function ProductCard(props) {
-    const product = props.product;
+export default function ProductCard({ product }) {
 
     <Card>
         <Card.Body>
