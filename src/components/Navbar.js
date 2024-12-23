@@ -2,6 +2,10 @@ import { Button, Navbar, Container, Modal } from "react-bootstrap";
 import { useState } from "react";
 
 export default function NavbarComponent() {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <>
             <Navbar expand="sm">
