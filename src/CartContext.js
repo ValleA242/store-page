@@ -10,4 +10,21 @@ export const CartContext = createContext({
     getTotalCost: () => { }
 });
 
-export function CartProvider({ children })
+export function CartProvider({ children }) {
+    const [cartProducts, setCartProducts] = useState([])
+
+    const contextValue = {
+        items: [],
+        getProductQuantity,
+        addOneToCart,
+        removeOneFromCart,
+        deleteFromCart,
+        getTotalCost
+    }
+
+    return (
+        <CartContext.Provider value={contextValue}>
+            {children}
+        </CartContext.Provider>
+    )
+}
