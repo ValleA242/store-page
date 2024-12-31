@@ -1,4 +1,4 @@
-import { Button, Navbar, Container, Modal } from react - bootstrap
+import { Button, Navbar, Container } from "react-bootstrap"
 
 export default function NavbarComponent() {
     return (
