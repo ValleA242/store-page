@@ -16,6 +16,12 @@ const productsArray = [
         price: 39.99
     },
 
+    {
+        id: "4",
+        title: "Nintendo Switch",
+        price: 300.00
+    }
+
 ]
 
 
