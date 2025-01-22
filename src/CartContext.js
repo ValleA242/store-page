@@ -32,7 +32,7 @@ export function CartProvider({ children }) {
                     ...cartProducts,
                     {
                         id: id,
-                        qunatity: 1
+                        quantity: 1
                     }
                 ]
             )
